@@ -17,37 +17,37 @@ export class Marker {
         }
         if(this.label.includes("Gasolio"))
         {
-            this.icon = { url: './assets/img/gasoline.ico' };
+            this.icon = { url: './assets/img/gas-pump-48' };
              this.label = "";
         }
         if(this.label.includes("Teleriscaldamento"))
         {
-            this.icon = { url: './assets/img/tele.ico' };
+            this.icon = { url: './assets/img/hot-tube-48' };
              this.label = "";
         }
         if(this.label.includes("Olio"))
         {
-            this.icon = { url: './assets/img/olio_com.ico' };
+            this.icon = { url: './assets/img/' };
              this.label = "";
         }
         if(this.label.includes("GPL"))
         {
-            this.icon = { url: './assets/img/gpl.ico' };
+            this.icon = { url: './assets/img/' };
              this.label = "";
         }
         if(this.label.includes("Biomasse solide"))
         {
-            this.icon = { url: './assets/img/bio.ico' };
+            this.icon = { url: './assets/img/' };
              this.label = "";
         }
         if(this.label.includes("Biomasse liquide"))
         {
-            this.icon = { url: './assets/img/biomasseliquide.ico' };
+            this.icon = { url: './assets/img/' };
              this.label = "";
         }
         if(this.label.includes("RSU"))
         {
-            this.icon = { url: './assets/img/rsu.ico' };
+            this.icon = { url: './assets/img/' };
              this.label = "";
         }
     }
