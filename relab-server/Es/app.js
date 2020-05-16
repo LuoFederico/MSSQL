@@ -1,6 +1,7 @@
 const express = require('express');
 const app = new express();
-
+const cors = require('cors');
+app.use(new cors());
 //Importo la classe per le chiamate al DB
 const sqlUtils = require('./SqlUtils.js'); 
 
