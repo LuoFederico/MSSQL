@@ -17,7 +17,7 @@ export class Marker {
         }
         if(this.label.includes("Gasolio"))
         {
-            this.icon = { url: './assets/img/gas-pump-48.ico' };
+            this.icon = { url: './assets/img/stazione.ico' };
              this.label = "";
         }
         if(this.label.includes("Teleriscaldamento"))
@@ -25,9 +25,9 @@ export class Marker {
             this.icon = { url: './assets/img/hot-tube-48.ico' };
              this.label = "";
         }
-        if(this.label.includes("Olio"))
+        if(this.label.includes("Olio combustibile"))
         {
-            this.icon = { url: './assets/img/olio.ico' };
+            this.icon = { url: './assets/img/oil.ico' };
              this.label = "";
         }
         if(this.label.includes("GPL"))
@@ -37,15 +37,15 @@ export class Marker {
         }
         if(this.label.includes("Biomasse solide"))
         {
-            this.icon = { url: './assets/img/legname.ico' };
+            this.icon = { url: './assets/img/Biomasse Solido.ico' };
              this.label = "";
         }
-        if(this.label.includes("Biomasse liquide"))
+        if(this.label.includes("Biomasse liquide e gassose"))
         {
             this.icon = { url: './assets/img/liq.ico' };
              this.label = "";
         }
-        if(this.label.includes("RSU"))
+        if(this.label.includes("RSU per teleriscaldamento"))
         {
             this.icon = { url: './assets/img/rsu.ico' };
              this.label = "";

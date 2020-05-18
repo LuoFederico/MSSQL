@@ -20,7 +20,7 @@ obsCiVett : Observable<Ci_vettore[]>;
  // google maps zoom level
  geoJsonObject: GeoFeatureCollection; //Oggetto che conterrà il vettore di GeoJson
  obsGeoData: Observable<GeoFeatureCollection>;
-  markers: Marker[];
+  markers: Marker[]
  constructor(public http: HttpClient) {
  //Facciamo iniettare il modulo HttpClient dal framework Angular (ricordati di importare la libreria)
  }
